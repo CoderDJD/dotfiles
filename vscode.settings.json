@@ -1,0 +1,108 @@
+{
+  "explorer.openEditors.visible": 0,
+  "editor.snippetSuggestions": "top",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "window.zoomLevel": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 24,
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "Anonymous Pro",
+  "markdown.preview.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "bracket-pair-colorizer-2.colors": [
+    "#9541f5",
+    "rgb(0,255,0)",
+    "rgb(0,250,255)",
+    "rgb(250,150,255)"
+  ],
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.anonymousGuestApproval": "accept",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {},
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [{
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#9541f5"
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#9541f5"
+        }
+      }
+    ]
+  },
+  "editor.lineHeight": 0,
+  "editor.fontSize": 16,
+  "editor.renameOnType": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.colorTheme": "Black",
+  "todohighlight.isEnable": true
+}
