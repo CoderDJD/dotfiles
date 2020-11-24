@@ -17,14 +17,6 @@
   "editor.minimap.enabled": false,
   "workbench.startupEditor": "newUntitledFile",
   "editor.suggestSelection": "first",
-  "bracket-pair-colorizer-2.colors": [
-    "#9541f5",
-    "rgb(0,255,0)",
-    "rgb(0,250,255)",
-    "rgb(250,150,255)"
-  ],
-  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
   "[javascript]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
@@ -41,7 +33,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveshare.anonymousGuestApproval": "accept",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -103,6 +94,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "liveServer.settings.donotVerifyTags": true,
-  "workbench.colorTheme": "Black",
-  "todohighlight.isEnable": true
+  "todohighlight.isEnable": true,
+  "workbench.colorTheme": "night blue theme"
 }
