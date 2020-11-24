@@ -17,3 +17,4 @@ VisualStudioExptTeam.vscodeintellicode
 wayou.vscode-todo-highlight
 wix.vscode-import-cost
 Zignd.html-css-class-completion
+jaakko.black
