@@ -15,6 +15,7 @@ chsh -s usr/local/bin/bash
 echo usr/local/bin/bash >> etc/shells
 brew cask install spectacle
 brew cask install google-chrome-dev
+brew cask install firefox-developer
 brew cask install visual-studio-code
 brew install git
 brew install vcprompt
@@ -30,7 +31,7 @@ mkdir des/
 cd ~
 git clone https://github.com/CoderDJD/dotfiles/
 cd dotfiles
-while read line; do code --install-extension "$line";done  < vscode-extensions.txt
+while read line; do code --install-extension "$line";done  < vscode.txt
 cd ~
 sudo touch .profile
 sudo mv ./dotfiles/.profile ../.profile
