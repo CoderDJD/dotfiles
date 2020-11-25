@@ -27,4 +27,4 @@
         3. git config --global core.editor nano
         4. git config --global init.defaultBranch main
     5. Configure iTerm2 and Visual Studio Code.
-    6. 
+    6. Configure Browser extensions.
