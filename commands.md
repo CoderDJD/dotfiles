@@ -32,8 +32,8 @@ git clone https://github.com/CoderDJD/dotfiles/
 cd dotfiles
 while read line; do code --install-extension "$line";done  < vscode-extensions.txt
 cd ~
-touch .profile
-mv ./dotfiles/.profile ../.profile
+sudo touch .profile
+sudo mv ./dotfiles/.profile ../.profile
 echo "Copy and paste vscode.settings.json into settings.json. Press Cmd+Shift+P to open command pallet. Type Shell and choose Shell Command : Install 'code' command in path."
 echo "Completed basic setup. Checkout the setup stream at https://twitch.tv/CoderDJD to know more."
 ```
