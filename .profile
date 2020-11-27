@@ -43,8 +43,12 @@ alias reload="source .profile"
 
 alias gii="git init"
 alias rapmon="git remote add"
-alias gf="git commit -a -m '-:fire:-:rocket:-:octocat:-' && git push"
+alias jeongyeon="git commit -a -m '-:fire:-:rocket:-:octocat:-' && git push"
 alias suga="git clone"
+alias jhope="git add *"
+alias chaeyoung="git commit -a -m ':fire: :octocat: :atom: :vs:'"
+alias jennie="git status"
+alias momo="git push"
 
 # MAC APPLICATION ALIASES
 
