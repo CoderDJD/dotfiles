@@ -43,10 +43,10 @@ alias reload="source .profile"
 
 alias gii="git init"
 alias rapmon="git remote add"
-alias jeongyeon="git commit -a -m '-:fire:-:rocket:-:octocat:-' && git push"
 alias suga="git clone"
 alias jhope="git add *"
 alias chaeyoung="git commit -a -m ':fire: :octocat: :atom: :vs:'"
+alias jeongyeon="git commit -a -m ':fire: :rocket: :octocat: '"
 alias jennie="git status"
 alias momo="git push"
 
@@ -61,7 +61,7 @@ alias jimin="npm run dev"
 alias jin="npm start"
 alias ni="npm init -y"
 alias nii="npm install"
-alias niid="npm install --save--dev"
+alias niid="npm install -D"
 alias nui="npm uninstall"
 
 # DEPLOYMENT ALIASES
