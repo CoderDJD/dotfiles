@@ -37,16 +37,17 @@ alias bin="rm -rf"
 alias jisoo="cd && cd dev/des"
 alias current="dev/ToCodeIsACrime && cls"
 alias editp="cd && code . .profile"
-alias reload="source .profile"
+alias reload="cd && source .profile &&cd -"
+alias ex="exit"
 
 # GIT ALIASES! DO HAVE THEM
 
 alias gii="git init"
 alias rapmon="git remote add"
+alias jeongyeon="git commit -a -m ':fire: :rocket: :octocat:'"
 alias suga="git clone"
 alias jhope="git add *"
 alias chaeyoung="git commit -a -m ':fire: :octocat: :atom: :vs:'"
-alias jeongyeon="git commit -a -m ':fire: :rocket: :octocat: '"
 alias jennie="git status"
 alias momo="git push"
 
@@ -61,7 +62,7 @@ alias jimin="npm run dev"
 alias jin="npm start"
 alias ni="npm init -y"
 alias nii="npm install"
-alias niid="npm install -D"
+alias niid="npm install --save--dev"
 alias nui="npm uninstall"
 
 # DEPLOYMENT ALIASES
