@@ -1,5 +1,6 @@
 aaron-bond.better-comments
 christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 eamodio.gitlens
@@ -8,14 +9,14 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 hikerpig.vetur
 HookyQR.beautify
-LuanVSO.night-blue-theme
 naumovs.color-highlight
 octref.vetur
 PKief.material-icon-theme
+ritwickdey.live-sass
 ritwickdey.LiveServer
+Sujan.code-blue
+syler.sass-indented
 VisualStudioExptTeam.vscodeintellicode
 wayou.vscode-todo-highlight
 wix.vscode-import-cost
 Zignd.html-css-class-completion
-jaakko.black
-coenraads.bracket-pair-colorizer

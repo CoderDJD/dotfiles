@@ -4,7 +4,7 @@
   "emmet.showAbbreviationSuggestions": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 3,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 24,
@@ -46,54 +46,16 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [{
-        "scope": ["keyword.operator.logical"],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["keyword.operator.logical"],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "name": "envKeys",
-        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-        "settings": {
-          "foreground": "#9541f5"
-        }
-      },
-      {
-        "scope": ["keyword.operator.logical"],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["keyword.operator.logical"],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "name": "envKeys",
-        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-        "settings": {
-          "foreground": "#9541f5"
-        }
-      }
-    ]
-  },
   "editor.lineHeight": 0,
   "editor.fontSize": 16,
-  "editor.renameOnType": true,
+  "editor.linkedEditing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "liveServer.settings.donotVerifyTags": true,
   "todohighlight.isEnable": true,
-  "workbench.colorTheme": "night blue theme"
+  "workbench.panel.defaultLocation": "right",
+  "editor.suggest.localityBonus": true,
+  "editor.cursorStyle": "line-thin",
+  "workbench.colorTheme": "Code Blue"
 }
