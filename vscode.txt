@@ -9,12 +9,12 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 hikerpig.vetur
 HookyQR.beautify
+limelightstudios.limelight-studios-dark
 naumovs.color-highlight
 octref.vetur
 PKief.material-icon-theme
 ritwickdey.live-sass
 ritwickdey.LiveServer
-Sujan.code-blue
 syler.sass-indented
 VisualStudioExptTeam.vscodeintellicode
 wayou.vscode-todo-highlight
