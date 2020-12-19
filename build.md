@@ -68,6 +68,6 @@ cd ~
 sudo touch .profile
 sudo mv ./dotfiles/.profile ../.profile
 echo "May or may not work on windows."
-echo "Copy and paste vscode.settings.json into settings.json. Press Cmd+Shift+P to open command pallet. Type Shell and choose Shell Command : Install 'code' command in path."
+echo "Copy and paste vscode.settings.json into settings.json. Press Ctrl+Shift+P to open command pallet. Type Shell and choose Shell Command : Install 'code' command in path. Type code.  in terminal. If it works, then "
 echo "Completed basic setup. Checkout the setup stream at https://twitch.tv/CoderDJD to know more."
 ```

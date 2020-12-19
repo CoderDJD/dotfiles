@@ -4,8 +4,6 @@ nvm use stable
 shopt -s autocd
 shopt -s histappend
 
-export PATH=$PATH:$HOME/bin
-
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
@@ -17,12 +15,12 @@ print_before_the_prompt () {
     dir=$PWD
     home=$HOME
     dir=${dir/"$HOME"/"~"}
-    printf "\n $txtred%s: $bldpur%s $txtgrn%s\n$txtrst" "$HOST_NAME" "$dir" "$(vcprompt)"
+    printf "\n %s: %s %s\n" "$HOST_NAME" "$dir" "$(vcprompt)"
 }
 
 PROMPT_COMMAND=print_before_the_prompt
 PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
-PS1="$EMOJI >"
+PS1="$EMOJI $ "
 
 function mkcd() {
     mkdir $1 && cd $1
@@ -75,12 +73,13 @@ alias express-basic="npm install express volleyball cors helmet"
 # ECHO ALIASES
 
 alias BTS="echo RM, Jungkook, Jimin, J-Hope, Jin, SUGA, V"
-alias display="echo 'Displaying Aliases ..' && alias"
-alias features="echo 'To ship : surge,vercel; Version Management : Git & Github CLI; Code Style : ESLint; Static serve : serve;'"
-alias inst="echo Lookout for Coding Train / Coding Garden / RiallyMundane / CozyCoding / Pokimane / Ninja streams, Play Rest-time favourites, clear the screen, do not forget to commit to git, have a good time coding. Bye..."
+alias da="echo 'Displaying Aliases ..' && alias"
+alias features="echo 'To ship : surge,vercel ~ Version Management : Git & Github CLI ~ Code Style : ESLint ~ File Conversion : ffmpeg'"
+alias inst="echo Lookout for Coding Train / Coding Garden / RiallyMundane / CozyCoding / Pokimane / Ninja / my streams, clear the screen, do not forget to commit to git, have a good time coding. Bye..."
 
 # Initialization
 
 BTS
 inst
 features
+export PATH="/usr/local/sbin:$PATH"
