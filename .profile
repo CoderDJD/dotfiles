@@ -1,3 +1,5 @@
+# Setup Commands
+
 HOST_NAME=CoderDJD
 source ~/.nvm/nvm.sh
 nvm use stable
@@ -7,15 +9,15 @@ shopt -s histappend
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
-emojis=("🎧" "💻" "📱" "⌚️" "🌏" "👋" "🪵" "🔥" "🚀" "💾");
+emojis=("🎧" "💻" "📱" "⌚️" "💾" "📻" "🖥" "⌨️" "🖱");
 
-EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
+EMOJI=${emojis[$RANDOM % ${#emojis[@]}]}
 
 print_before_the_prompt () {
     dir=$PWD
     home=$HOME
     dir=${dir/"$HOME"/"~"}
-    printf "\n %s: %s %s\n" "$HOST_NAME" "$dir" "$(vcprompt)"
+    printf "\n %s 🗃 %s 🧐 %s \n" "$HOST_NAME" "$dir" "$(vcprompt)"
 }
 
 PROMPT_COMMAND=print_before_the_prompt
@@ -83,3 +85,25 @@ BTS
 inst
 features
 export PATH="/usr/local/sbin:$PATH"
+
+function gf() {
+    echo "Adding Changes ..."
+    jhope
+    echo "Committing to Git ..."
+    if [[ $1 == ch ]]
+        then
+            chaeyoung
+    fi
+    if [[ $1 == jy ]]
+        then
+            jeongyeon
+    fi
+    echo "Pushing to GitHub ..."
+    momo
+}
+
+function dot() {
+    sudo cp ~/.profile  ~/CoderDJD/dotfiles/.profile
+    sudo cp ~/Library/"Application Support"/Code/User/settings.json  ~/CoderDJD/dotfiles/vscode.settings.json
+    echo "Don't forget to push to GitHub, D!"
+}
