@@ -9,7 +9,17 @@ shopt -s histappend
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
+export HISTSIZE=5000
+export HISTFILESIZE=100
+export CLICOLOR=1
+export LSCOLORS=HxFxCxExBxxxxxxxxxxxxx
+
 emojis=("🎧" "💻" "📱" "⌚️" "💾" "📻" "🖥" "⌨️" "🖱");
+
+txtgrn='\e[1;92m' # Green
+bldgrn='\e[1;32m' # Lime Green
+bldpur='\e[1;35m' # Bold Purple
+txtrst='\e[0m'    # Text Reset
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]}]}
 
@@ -17,7 +27,8 @@ print_before_the_prompt () {
     dir=$PWD
     home=$HOME
     dir=${dir/"$HOME"/"~"}
-    printf "\n %s 🗃 %s 🧐 %s \n" "$HOST_NAME" "$dir" "$(vcprompt)"
+    # printf "\n %s 🗃 %s 🧐 %s \n" "$HOST_NAME" "$dir" "$(vcprompt)"
+    printf "\n $txtgrn%s: $bldpur%s $txtgrn%s\n$txtrst" "$HOST_NAME" "$dir" "$(vcprompt)"
 }
 
 PROMPT_COMMAND=print_before_the_prompt
@@ -107,3 +118,8 @@ function dot() {
     sudo cp ~/Library/"Application Support"/Code/User/settings.json  ~/CoderDJD/dotfiles/vscode.settings.json
     echo "Don't forget to push to GitHub, D!"
 }
+
+export PATH="/usr/local/opt/ncurses/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+export PKG_CONFIG_PATH="/usr/local/opt/ncurses/lib/pkgconfig"

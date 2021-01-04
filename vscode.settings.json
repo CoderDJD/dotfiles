@@ -57,10 +57,11 @@
   "workbench.panel.defaultLocation": "right",
   "editor.suggest.localityBonus": true,
   "editor.cursorStyle": "line-thin",
-  "workbench.colorTheme": "Ayu Dark",
+  "workbench.colorTheme": "Ayu Mirage",
   "editor.renderWhitespace": "all",
   "terminal.integrated.sendKeybindingsToShell": true,
   "editor.fontWeight": "bold",
   "editor.hideCursorInOverviewRuler": true,
-  "editor.columnSelection": false
+  "editor.columnSelection": false,
+  "liveServer.settings.donotShowInfoMsg": true
 }
