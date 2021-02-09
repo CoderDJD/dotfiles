@@ -1,8 +1,6 @@
 # Setup Commands
 
 HOST_NAME=CoderDJD
-source ~/.nvm/nvm.sh
-nvm use stable
 shopt -s autocd
 shopt -s histappend
 
@@ -41,7 +39,7 @@ function mkcd() {
 
 # Bash aliases
 
-alias cls="clear"
+alias cls="clear && ls"
 alias lisa="cd && cd dev/wh"
 alias rose="cd && cd dev/web"
 alias bin="rm -rf"
@@ -123,3 +121,8 @@ export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/ncurses/lib"
 export CPPFLAGS="-I/usr/local/opt/ncurses/include"
 export PKG_CONFIG_PATH="/usr/local/opt/ncurses/lib/pkgconfig"
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/joshua/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/joshua/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/joshua/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/joshua/Downloads/google-cloud-sdk/completion.bash.inc'; fi

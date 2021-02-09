@@ -12,9 +12,7 @@
         7. Install vcprompt.
         8. Tap into brew MongoDB.
             1. Install mongosh.
-    2. Install nvm(Node Version Manager).
-        1. Install the latest stable release of NodeJS.
-        2. Install the latest stable release of NPM.
+    2. Install Node and NPM
     3. Get config files and set config files.
     4. Configure Git.
         1. git config --global user.name "e. example example"

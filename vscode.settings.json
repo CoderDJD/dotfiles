@@ -4,7 +4,6 @@
   "emmet.showAbbreviationSuggestions": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
-  "window.zoomLevel": 3,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 24,
@@ -30,17 +29,7 @@
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorCustomizations": {},
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
@@ -57,11 +46,13 @@
   "workbench.panel.defaultLocation": "right",
   "editor.suggest.localityBonus": true,
   "editor.cursorStyle": "line-thin",
-  "workbench.colorTheme": "Ayu Mirage",
-  "editor.renderWhitespace": "all",
+  "workbench.colorTheme": "Tinacious Design",
   "terminal.integrated.sendKeybindingsToShell": true,
   "editor.fontWeight": "bold",
   "editor.hideCursorInOverviewRuler": true,
   "editor.columnSelection": false,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.renderWhitespace": "all",
+  "terminal.external.osxExec": "iTerm.app",
+  "window.zoomLevel": 3
 }
