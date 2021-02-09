@@ -4,8 +4,6 @@ All of my profile files and defaults compiled for you to get started coding.
 
 ## Steps :
 
-# Setup :
-
     1. Install Homebrew.
         1. Update Homebrew.
         2. Install iTerm2 : Terminal Emulator.
